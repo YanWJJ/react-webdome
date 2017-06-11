@@ -1,0 +1,16 @@
+.welcome {
+  position: absolute;
+  left: 250px;
+  opacity: 1;
+  background-color: #fff;
+  transform-origin: 50% 50% 0;
+  transition: transform 0.6s ease-in-out, left .6s ease-in-out, opacity .6s ease-in-out; }
+  .welcome h1 {
+    color: #337AB7; }
+
+.h1-inverse {
+  transform: rotate(360deg); }
+
+.h1-local {
+  left: 80%;
+  opacity: 0; }
